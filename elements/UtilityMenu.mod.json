@@ -1,0 +1,12 @@
+{
+  "_fv": 57,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "F4",
+    "keyBindingName": "Utility Menu Open",
+    "keyBindingCategoryKey": "innoadditons",
+    "onKeyPressed": {
+      "name": "UtilityMenuOpen"
+    }
+  }
+}

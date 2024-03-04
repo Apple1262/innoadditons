@@ -1,0 +1,226 @@
+{
+  "mod_elements": [
+    {
+      "name": "InnoAdditons",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inno_additons",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "NetherDust",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/innoadditons/models/item/nether_dust.json",
+          "src/main/java/net/mcreator/innoadditons/item/NetherDustItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NetherDustSequence",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "nether_dust_sequence",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/innoadditons/recipes/nether_dust_sequence.json"
+        ]
+      }
+    },
+    {
+      "name": "LiquidNetherDust",
+      "type": "fluid",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liquid_nether_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/innoadditons/blockstates/liquid_nether_dust.json",
+          "src/main/resources/assets/innoadditons/models/item/liquid_nether_dust_bucket.json",
+          "src/main/java/net/mcreator/innoadditons/block/LiquidNetherDustBlock.java",
+          "src/main/java/net/mcreator/innoadditons/fluid/LiquidNetherDustFluid.java",
+          "src/main/java/net/mcreator/innoadditons/item/LiquidNetherDustItem.java",
+          "src/main/java/net/mcreator/innoadditons/fluid/types/LiquidNetherDustFluidType.java",
+          "src/main/resources/assets/innoadditons/models/block/liquid_nether_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherDustMelting",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "nether_dust_melting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/innoadditons/recipes/nether_dust_melting.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherLiquidCompacting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "nether_liquid_compacting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/innoadditons/recipes/nether_liquid_compacting.json"
+        ]
+      }
+    },
+    {
+      "name": "RedstoneCrafting",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "redstone_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/innoadditons/recipes/redstone_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "UtilityMenu",
+      "type": "keybind",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "utility_menu_key",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/innoadditons/network/UtilityMenuMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "UtilityMenuGui",
+      "type": "gui",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "utility_menu_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/innoadditons/client/gui/UtilityMenuGuiScreen.java",
+          "src/main/java/net/mcreator/innoadditons/world/inventory/UtilityMenuGuiMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "UtilityMenuOpen",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "utility_menu_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/innoadditons/procedures/UtilityMenuOpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UtilityMenuButtonKill",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "utility_menu_button_kill",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/innoadditons/procedures/UtilityMenuButtonKillProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.innoadditons.nether_dust": "Nether Dust",
+      "key.innoadditons.utility_menu_key": "Utility Menu Open",
+      "fluid_type.innoadditons.liquid_nether_dust": "Liquid Nether Dust",
+      "death.attack.innoadditons.suicide": "%1$s decided to rage quit",
+      "block.innoadditons.liquid_nether_dust": "Liquid Nether Dust",
+      "item_group.innoadditons.inno_additons": "Inno\u0027s Additons",
+      "fluid.innoadditons.liquid_nether_dust": "Liquid Nether Dust",
+      "gui.innoadditons.utility_menu_gui.button_kill": "Kill",
+      "item.innoadditons.liquid_nether_dust_bucket": "Bucket Of Liquid Nether Dust"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "innoadditons",
+    "modName": "Inno\u0027s Additions",
+    "version": "1.0.0",
+    "author": "onnim, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [
+      "curios",
+      "create"
+    ],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api",
+      "create",
+      "jei"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.innoadditons",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "amount": 750,
+      "fluid": "minecraft:lava"
+    },
+    {
+      "item": "innoadditons:nether_dust"
+    }
+  ],
+  "results": [
+    {
+      "amount": 25,
+      "fluid": "innoadditons:liquid_nether_dust"
+    }
+  ]
+}

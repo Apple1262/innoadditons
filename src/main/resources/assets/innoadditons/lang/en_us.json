@@ -1,0 +1,11 @@
+{
+  "item.innoadditons.nether_dust": "Nether Dust",
+  "key.innoadditons.utility_menu_key": "Utility Menu Open",
+  "fluid_type.innoadditons.liquid_nether_dust": "Liquid Nether Dust",
+  "death.attack.innoadditons.suicide": "%1$s decided to rage quit",
+  "block.innoadditons.liquid_nether_dust": "Liquid Nether Dust",
+  "item_group.innoadditons.inno_additons": "Inno\u0027s Additons",
+  "fluid.innoadditons.liquid_nether_dust": "Liquid Nether Dust",
+  "gui.innoadditons.utility_menu_gui.button_kill": "Kill",
+  "item.innoadditons.liquid_nether_dust_bucket": "Bucket Of Liquid Nether Dust"
+}
