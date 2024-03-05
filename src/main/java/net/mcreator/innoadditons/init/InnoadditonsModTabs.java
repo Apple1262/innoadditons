@@ -20,6 +20,8 @@ public class InnoadditonsModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.innoadditons.inno_additons")).icon(() -> new ItemStack(InnoadditonsModItems.NETHER_DUST.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(InnoadditonsModItems.NETHER_DUST.get());
 				tabData.accept(InnoadditonsModItems.LIQUID_NETHER_DUST_BUCKET.get());
+				tabData.accept(InnoadditonsModBlocks.LITHIUM_ORE.get().asItem());
+				tabData.accept(InnoadditonsModItems.LITHIUM.get());
 			})
 
 					.build());

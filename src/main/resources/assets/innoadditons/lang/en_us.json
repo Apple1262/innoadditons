@@ -7,5 +7,7 @@
   "item_group.innoadditons.inno_additons": "Inno\u0027s Additons",
   "fluid.innoadditons.liquid_nether_dust": "Liquid Nether Dust",
   "gui.innoadditons.utility_menu_gui.button_kill": "Kill",
-  "item.innoadditons.liquid_nether_dust_bucket": "Bucket Of Liquid Nether Dust"
+  "item.innoadditons.liquid_nether_dust_bucket": "Bucket Of Liquid Nether Dust",
+  "item.innoadditons.lithium": "Lithium",
+  "block.innoadditons.lithium_ore": "Lithium Ore"
 }
