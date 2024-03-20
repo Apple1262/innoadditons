@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-license="Academic Free License v3.0"
+license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="innoadditons"
-version="1.0.0"
+version="0.1.0"
 displayName="Inno's Additions"
 displayURL="https://mcreator.net"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="onnim, MCreator"
+authors="innOChilzz"
 
 [[dependencies.innoadditons]]
     modId="minecraft"

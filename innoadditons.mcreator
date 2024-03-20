@@ -21,65 +21,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/innoadditons/models/item/nether_dust.json",
-          "src/main/java/net/mcreator/innoadditons/item/NetherDustItem.java"
-        ]
-      }
-    },
-    {
-      "name": "NetherDustSequence",
-      "type": "recipe",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "nether_dust_sequence",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/innoadditons/recipes/nether_dust_sequence.json"
-        ]
-      }
-    },
-    {
-      "name": "LiquidNetherDust",
-      "type": "fluid",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "liquid_nether_dust",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/innoadditons/blockstates/liquid_nether_dust.json",
-          "src/main/resources/assets/innoadditons/models/item/liquid_nether_dust_bucket.json",
-          "src/main/java/net/mcreator/innoadditons/block/LiquidNetherDustBlock.java",
-          "src/main/java/net/mcreator/innoadditons/fluid/LiquidNetherDustFluid.java",
-          "src/main/java/net/mcreator/innoadditons/item/LiquidNetherDustItem.java",
-          "src/main/java/net/mcreator/innoadditons/fluid/types/LiquidNetherDustFluidType.java",
-          "src/main/resources/assets/innoadditons/models/block/liquid_nether_dust.json"
-        ]
-      }
-    },
-    {
-      "name": "NetherDustMelting",
-      "type": "recipe",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "nether_dust_melting",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/innoadditons/recipes/nether_dust_melting.json"
-        ]
-      }
-    },
-    {
-      "name": "NetherLiquidCompacting",
-      "type": "recipe",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "nether_liquid_compacting",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/innoadditons/recipes/nether_liquid_compacting.json"
+          "src/main/java/net/innochilzz/innoadditons/item/NetherDustItem.java"
         ]
       }
     },
@@ -105,7 +47,7 @@
       "registry_name": "utility_menu_key",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/innoadditons/network/UtilityMenuMessage.java"
+          "src/main/java/net/innochilzz/innoadditons/network/UtilityMenuMessage.java"
         ]
       }
     },
@@ -118,8 +60,8 @@
       "registry_name": "utility_menu_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/innoadditons/client/gui/UtilityMenuGuiScreen.java",
-          "src/main/java/net/mcreator/innoadditons/world/inventory/UtilityMenuGuiMenu.java"
+          "src/main/java/net/innochilzz/innoadditons/client/gui/UtilityMenuGuiScreen.java",
+          "src/main/java/net/innochilzz/innoadditons/world/inventory/UtilityMenuGuiMenu.java"
         ]
       }
     },
@@ -132,7 +74,7 @@
       "registry_name": "utility_menu_open",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/innoadditons/procedures/UtilityMenuOpenProcedure.java"
+          "src/main/java/net/innochilzz/innoadditons/procedures/UtilityMenuOpenProcedure.java"
         ],
         "dependencies": [
           {
@@ -167,69 +109,13 @@
       "registry_name": "utility_menu_button_kill",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/innoadditons/procedures/UtilityMenuButtonKillProcedure.java"
+          "src/main/java/net/innochilzz/innoadditons/procedures/UtilityMenuButtonKillProcedure.java"
         ],
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
           }
-        ]
-      }
-    },
-    {
-      "name": "LithiumOre",
-      "type": "block",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lithium_ore",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/innoadditons/block/LithiumOreBlock.java",
-          "src/main/resources/assets/innoadditons/blockstates/lithium_ore.json",
-          "src/main/resources/assets/innoadditons/models/block/lithium_ore.json",
-          "src/main/resources/assets/innoadditons/models/item/lithium_ore.json"
-        ]
-      }
-    },
-    {
-      "name": "Lithium",
-      "type": "item",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lithium",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/innoadditons/models/item/lithium.json",
-          "src/main/java/net/mcreator/innoadditons/item/LithiumItem.java"
-        ]
-      }
-    },
-    {
-      "name": "LithiumOreLoot",
-      "type": "loottable",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lithium_ore_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/innoadditons/loot_tables/blocks/lithium_ore.json"
-        ]
-      }
-    },
-    {
-      "name": "Ores",
-      "type": "tag",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ores",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forge/tags/blocks/ores.json"
         ]
       }
     }
@@ -242,13 +128,8 @@
       "key.innoadditons.utility_menu_key": "Utility Menu Open",
       "fluid_type.innoadditons.liquid_nether_dust": "Liquid Nether Dust",
       "death.attack.innoadditons.suicide": "%1$s decided to rage quit",
-      "block.innoadditons.liquid_nether_dust": "Liquid Nether Dust",
       "item_group.innoadditons.inno_additons": "Inno\u0027s Additons",
-      "fluid.innoadditons.liquid_nether_dust": "Liquid Nether Dust",
-      "gui.innoadditons.utility_menu_gui.button_kill": "Kill",
-      "item.innoadditons.liquid_nether_dust_bucket": "Bucket Of Liquid Nether Dust",
-      "item.innoadditons.lithium": "Lithium",
-      "block.innoadditons.lithium_ore": "Lithium Ore"
+      "gui.innoadditons.utility_menu_gui.button_kill": "Kill"
     }
   },
   "foldersRoot": {
@@ -258,10 +139,9 @@
   "workspaceSettings": {
     "modid": "innoadditons",
     "modName": "Inno\u0027s Additions",
-    "version": "1.0.0",
-    "author": "onnim, MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "version": "0.1.0",
+    "author": "innOChilzz",
+    "license": "GNU General Public License version 3 (GPLv3)",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -276,8 +156,7 @@
       "jei"
     ],
     "currentGenerator": "forge-1.20.1",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
-    "modElementsPackage": "net.mcreator.innoadditons",
+    "modElementsPackage": "net.innochilzz.innoadditons",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202300452316
